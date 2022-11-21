@@ -1,6 +1,4 @@
 pycaret
-cgi
-re
 tokenize
 unicodedatae
 webbrowser
