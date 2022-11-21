@@ -11,9 +11,6 @@ import altair as alt
 import time
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
-import seaborn as sns 
 import streamlit.components.v1 as components
 import pickle
 import pycaret
