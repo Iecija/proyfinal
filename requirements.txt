@@ -2,7 +2,6 @@ pycaret
 pandas
 plotly
 numpy
-time
 requests
 streamlit
 streamlit-option-menu
