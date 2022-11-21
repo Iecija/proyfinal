@@ -1,7 +1,4 @@
 pycaret
-tokenize
-unicodedatae
-webbrowser
 sys
 pandas
 plotly
