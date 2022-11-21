@@ -33,8 +33,8 @@ with col2:
     st.write('En este caso, vamos a analizar esta nueva tendencia de los vehículos eléctricos, contamos con un dataset de 194 vehículos donde se muestran sus caractarísticas. De esta forma podremos ver cuáles son las empresas que más fabrican este tipo de automóviles y que carácterísticas tienen.')
     st.write('También hemos realizado un modelo predictivo en el que podremos saber la autonomía (tanto en un clima frío como en uno cálido) de cualquier vehículo introduciendo los parámetros que nos interesen.')
 
-frio = pickle.load(open('Frio.pkl', 'rb'))
-caliente = pickle.load(open('Caliente.pkl', 'rb'))
+frio = load_model('frio.plk')
+caliente = load_model('caliente.plk')
 
 def predictor(clf, df): 
     
