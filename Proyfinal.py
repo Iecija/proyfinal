@@ -6,11 +6,7 @@ from webbrowser import get
 import streamlit as st
 from sys import setprofile
 import pandas as pd
-import plotly.figure_factory as ff
 import numpy as np
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-import plotly.express as px
 import altair as alt
 import time
 import requests
