@@ -6,7 +6,6 @@ from webbrowser import get
 import streamlit as st
 from sys import setprofile
 import pandas as pd
-import plotly as py
 import plotly.figure_factory as ff
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,6 +20,7 @@ from streamlit_lottie import st_lottie_spinner
 import seaborn as sns 
 import streamlit.components.v1 as components
 import pickle
+import pycaret
 
 
 # Configuramos la app
