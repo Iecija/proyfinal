@@ -4,4 +4,3 @@ plotly
 numpy
 requests
 streamlit
-streamlit-option-menu
