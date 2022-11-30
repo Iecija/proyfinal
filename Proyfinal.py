@@ -16,7 +16,7 @@ import pickle
 
 
 # Configuramos la app y todos los dataframes
-st.set_page_config(page_title='Automóviles eléctricos', page_icon='🚘', layout='wide',  initial_sidebar_state="expanded")
+st.set_page_config(page_title='Automóviles eléctricos', page_icon='🚘', layout='wide',  initial_sidebar_state="collapsed")
 data = pd.read_csv ('evdataset.csv')
 data['Range Cold Weather'] = (data['City - Cold Weather']+data['Highway - Cold Weather']+data['Combined - Cold Weather'])/3
 data['Range Hot Weather'] = (data['City - Mild Weather']+data['Highway - Mild Weather']+data['Combined - Mild Weather'])/3
