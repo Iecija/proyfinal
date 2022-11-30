@@ -1,0 +1,30 @@
+,95
+id,1602
+Make,Opel
+link,https://ev-database.org/car/1602/Opel-Vivaro-e-Combi-M-75-kWh
+City - Cold Weather,285
+Highway - Cold Weather,185
+Combined - Cold Weather,230
+City - Mild Weather,395
+Highway - Mild Weather,230
+Combined - Mild Weather,295
+Acceleration 0 - 100 km/h,13.3
+Top Speed,130
+Electric Range,265
+Total Power,100
+Total Torque,260
+Drive,Front
+Battery Capacity,75.0
+Charge Power,7.4
+Charge Speed,25
+Fastcharge Speed,290
+Length,4956
+Width,1920
+Height,1890
+Wheelbase,3275
+Gross Vehicle Weight (GVWR),3100
+Max. Payload,1035
+Cargo Volume,507
+Seats,9
+Range Cold Weather,233.33333333333334
+Range Hot Weather,306.6666666666667
