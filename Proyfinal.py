@@ -30,7 +30,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.juansola.com/1396-large_default/cartulina-50x65-verde-claro-180-gr.jpg");
+             background-image: url("https://d3q33rbmdkxzj.cloudfront.net/1588404277337_Diuudf.png");
              background-attachment: fixed;
              background-size: cover
          }}
