@@ -95,7 +95,7 @@ Traccion = Dicc1[Traccion]
 
 
 # -------------METEMOS LAS TABLAS QUE COMPONEN LAS CELDAS----------------
-tabs = st.tabs(['   Datos   ',' Marcas ','Tipo de tracción','Tipo de clima','Predicción clima frío','Predicción clima cálido'])
+tabs = st.tabs(['##Datos##','##Marcas','Tipo de tracción','Tipo de clima','Predicción clima frío','Predicción clima cálido'])
 tab_plots= tabs[0]
 with tab_plots:
     st.write('En nuestro Dataset inicial contamos con 27 columnas y ningún dato nulo.')
