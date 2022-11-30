@@ -25,15 +25,21 @@ df2 = df
 X, y = df2.loc[:, ~df.columns.isin(['Range Cold Weather'])], df.loc[:, 'Range Cold Weather']
 X = X.drop(columns=['Range Hot Weather'])
 st.markdown("<h1 style='text-align: center; color: darkblue;'>Automóviles eléctricos</h1>", unsafe_allow_html=True)
-st.markdown(
-   f” ” ”
-   <style>
-   p {
-   background-image: url(‘https://www.juansola.com/1396-large_default/cartulina-50x65-verde-claro-180-gr.jpg’);
-   }
-   </style>
-   ”””,
-   unsafe_allow_html=True)
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://www.juansola.com/1396-large_default/cartulina-50x65-verde-claro-180-gr.jpg");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+add_bg_from_url()
 
 #----------------CONFIRGURACIÓN PAG...................
 sns.set()
