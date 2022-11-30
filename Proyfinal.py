@@ -30,7 +30,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://fondosmil.com/fondo/51479.jpg");
+             background-image: url("https://fondosmil.com/fondo/51301.jpg");
              background-attachment: fixed;
              background-size: cover
          }}
