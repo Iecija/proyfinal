@@ -25,11 +25,11 @@ df2 = df
 X, y = df2.loc[:, ~df.columns.isin(['Range Cold Weather'])], df.loc[:, 'Range Cold Weather']
 X = X.drop(columns=['Range Hot Weather'])
 st.markdown("<h1 style='text-align: center; color: darkblue;'>Automóviles eléctricos</h1>", unsafe_allow_html=True)
-primaryColor="#6eb52f"
-backgroundColor="#f0f0f5"
-secondaryBackgroundColor="#e0e0ef"
-textColor="#262730"
-font="sans serif"
+<style>
+p {
+ background-image: url(‘https://ih1.redbubble.net/image.337788494.7384/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg’);
+}
+</style>
 
 #----------------CONFIRGURACIÓN PAG...................
 sns.set()
