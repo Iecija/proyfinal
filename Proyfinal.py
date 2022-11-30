@@ -25,6 +25,11 @@ df2 = df
 X, y = df2.loc[:, ~df.columns.isin(['Range Cold Weather'])], df.loc[:, 'Range Cold Weather']
 X = X.drop(columns=['Range Hot Weather'])
 st.markdown("<h1 style='text-align: center; color: darkblue;'>Automóviles eléctricos</h1>", unsafe_allow_html=True)
+primaryColor="#6eb52f"
+backgroundColor="#f0f0f5"
+secondaryBackgroundColor="#e0e0ef"
+textColor="#262730"
+font="sans serif"
 
 #----------------CONFIRGURACIÓN PAG...................
 sns.set()
@@ -139,7 +144,7 @@ with tab_plots:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader('Predicción')
-        st.write('Seleccione las carácterísticas de un vehículo con el panel desplegable de la izquierda.')
+        st.write('Abra el panel desplegable de la izquierda y seleccione las características de un vehículo.')
         features = {'Make': Make, 'Acceleration_0_-_100_km/h': Aceleracion, 'Top_Speed': Velocidad, 'Electric_Range': Autonomia, 'Total_Power': Autmaxv, 'Total_Torque': Potencia, 'Drive': Traccion, 'Battery_Capacity': carga, 'Charge_Power': potcarga, 'Charge_Speed': aut1, 'Fastcharge_Speed': aut1r, 'Length': Lenght, 'Width': Width, 'Height': Height, 'Wheelbase':Wheelbase, 'Gross_Vehicle_Weight_(GVWR)': GVWr, 'Max._Payload': Maxcargo, 'Cargo_Volume': volcargo, 'Seats': Seats}
         dflis = pd.DataFrame(features, index = [0])
         features_df  = pd.DataFrame([features])
@@ -155,7 +160,7 @@ with tab_plots:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader('Predicción')
-        st.write('Seleccione las características de un vehículo con el panel desplegable de la izquierda.')
+        st.write('Abra el panel desplegable de la izquierda y seleccione las características de un vehículo.')
 
         features = {'Make': Make, 'Acceleration_0_-_100_km/h': Aceleracion, 'Top_Speed': Velocidad, 'Electric_Range': Autonomia, 'Total_Power': Autmaxv, 'Total_Torque': Potencia, 'Drive': Traccion, 'Battery_Capacity': carga, 'Charge_Power': potcarga, 'Charge_Speed': aut1, 'Fastcharge_Speed': aut1r, 'Length': Lenght, 'Width': Width, 'Height': Height, 'Wheelbase':Wheelbase, 'Gross_Vehicle_Weight_(GVWR)': GVWr, 'Max._Payload': Maxcargo, 'Cargo_Volume': volcargo, 'Seats': Seats}
         df = pd.DataFrame(features, index = [0])      
