@@ -26,7 +26,7 @@ X, y = df2.loc[:, ~df.columns.isin(['Range Cold Weather'])], df.loc[:, 'Range Co
 X = X.drop(columns=['Range Hot Weather'])
 st.markdown("<h1 style='text-align: center; color: darkblue;'>Automóviles eléctricos</h1>", unsafe_allow_html=True)
 st.markdown(
-   f”””
+   f” ” ”
    <style>
    p {
    background-image: url(‘https://www.juansola.com/1396-large_default/cartulina-50x65-verde-claro-180-gr.jpg’);
