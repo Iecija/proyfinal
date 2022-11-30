@@ -2,7 +2,6 @@
 numpy==1.23.3
 pandas==1.5.0
 openpyxl== 3.0.10
-pickle
 scikit-learn==1.1.2
 
 # Visualizaciones
