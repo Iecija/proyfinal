@@ -1,8 +1,3 @@
-from cgi import print_exception
-from re import template
-from tokenize import group
-from unicodedata import name
-from webbrowser import get
 import streamlit as st
 from sys import setprofile
 import pandas as pd
@@ -12,12 +7,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
-import altair as alt
 import time
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
-from streamlit_lottie import st_lottie_spinner
 import seaborn as sns 
 import streamlit.components.v1 as components
 import pickle
